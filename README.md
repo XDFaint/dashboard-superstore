@@ -1,11 +1,11 @@
 # 📊 Dashboard Penjualan Superstore
 
-**Nama / NIM:** `ISI NAMA` / `ISI NIM`
+**Nama / NIM:** `Stefhanus Christopher Hasiholan Simarmata` / `241051014`
 **Mata Kuliah:** Visualisasi Data
 
 ## 🔗 Tautan
-- **Live Dashboard:** `ISI URL STREAMLIT CLOUD`
-- **Dataset Kaggle:** `ISI LINK KAGGLE` (Superstore Dataset, ±9.994 baris)
+- **Live Dashboard:** `https://dashboard-superstore-uts.streamlit.app/`
+- **Dataset Kaggle:** `https://www.kaggle.com/datasets/vivek468/superstore-dataset-final` (Superstore Dataset, ±9.994 baris)
 
 ## Deskripsi
 Dashboard interaktif untuk menganalisis performa penjualan toko ritel: tren waktu,
@@ -21,7 +21,7 @@ profitabilitas produk, pengaruh diskon, dan perbandingan wilayah.
 4. **Wilayah:** West dan East paling profitable; Central punya margin terendah.
 5. **Penjualan tinggi ≠ untung:** beberapa state dengan penjualan besar (mis. Texas) justru berprofit negatif.
 
-> Verifikasi angka insight di atas dengan dashboard milikmu sebelum dikumpulkan.
+
 
 ## 📁 Struktur Repositori
 ```
@@ -35,8 +35,13 @@ profitabilitas produk, pengaruh diskon, dan perbandingan wilayah.
 
 ## ▶️ Menjalankan Secara Lokal
 ```bash
-git clone <URL-REPO-KAMU>
-cd <nama-repo>
+git clone https://github.com/XDFaint/dashboard-superstore.git
+cd dashboard-superstore
+
+python -m venv venv
+venv\Scripts\activate        # Windows
+source venv/bin/activate     # Mac/Linux
+
 pip install -r requirements.txt
 
 # (opsional) bersihkan ulang data mentah dari Kaggle
@@ -51,4 +56,4 @@ streamlit run app.py
 3. Pilih repo, branch `main`, main file `app.py`, lalu **Deploy**.
 
 ## Sumber Data
-Superstore Dataset, Kaggle: `ISI LINK KAGGLE`
+Superstore Dataset, Kaggle: `https://www.kaggle.com/datasets/vivek468/superstore-dataset-final`
